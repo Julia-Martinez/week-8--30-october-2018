@@ -17,4 +17,11 @@ span {
    color: white;
 }
 
+div {
+   height: 100vh;
+   background:
+      linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)) no-repeat left,
+      url('https://mdn.mozillademos.org/files/11307/bubbles.png') no-repeat left center / cover,
+      url('https://mdn.mozillademos.org/files/11305/firefox.png') no-repeat bottom right,
+      transparent;
 }
