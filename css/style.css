@@ -1,6 +1,22 @@
-
+.transparent-background-container {
+  width: 80%;
+  margin: auto;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
+.hero:nth-of-type(1) {
+  background: url("../img/5377893110_41817df464_b.jpg") scroll 0 0/cover;
 }
 
+.hero:nth-of-type(2) {
+  background: url("../img/5595841134_a62a5fc97b_b.jpg") fixed 0 0/cover;
+}
+
+.hero:nth-of-type(3) {
+  background: url("../img/6249680935_9e479ce922_b.jpg") scroll 0 0/cover;
+}
+
+.hero:nth-of-type(4) {
+  background: url("../img/6835581528_e747fd91fe_z.jpg") fixed 0 0/cover;
 }
